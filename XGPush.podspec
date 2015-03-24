@@ -26,7 +26,7 @@ Unofficial Tencent XG Push Service iOS SDK
   s.source_files  = "Classes/*.{h,m}"
   s.vendored_libraries = 'Classes/*.a'
   s.framework = 'CFNetwork', 'SystemConfiguration', 'CoreTelephony', 'Security'
-  s.library   = 'sqlite3'
+  s.library   = 'sqlite3', 'z.1'
   s.requires_arc = false
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
